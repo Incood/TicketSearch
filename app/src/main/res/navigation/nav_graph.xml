@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_tickets">
+
+    <fragment
+        android:id="@+id/nav_tickets"
+        android:name="com.example.ticketsearch.screens.TicketsFragment"
+        android:label="@string/air_tickets"
+        tools:layout="@layout/fragment_tickets" />
+    <fragment
+        android:id="@+id/nav_hotels"
+        android:name="com.example.ticketsearch.placeholder_screen.PlaceholderFragment"
+        android:label="@string/hotels"
+        tools:layout="@layout/fragment_placeholder" />
+    <fragment
+        android:id="@+id/nav_koroche"
+        android:name="com.example.ticketsearch.placeholder_screen.PlaceholderFragment"
+        android:label="@string/in_short"
+        tools:layout="@layout/fragment_placeholder" />
+    <fragment
+        android:id="@+id/nav_subscriptions"
+        android:name="com.example.ticketsearch.placeholder_screen.PlaceholderFragment"
+        android:label="@string/subscriptions"
+        tools:layout="@layout/fragment_placeholder" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.ticketsearch.placeholder_screen.PlaceholderFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_placeholder" />
+    <fragment
+        android:id="@+id/nav_placeholder"
+        android:name="com.example.ticketsearch.placeholder_screen.PlaceholderFragment"
+        android:label="@string/placeholder"
+        tools:layout="@layout/fragment_placeholder" />
+    <fragment
+        android:id="@+id/nav_selected_country"
+        android:name="com.example.ticketsearch.screens.SelectedCountryFragment"
+        android:label="@string/selected_country"
+        tools:layout="@layout/fragment_country_selected">
+        <action
+            android:id="@+id/action_selectedCountryFragment_to_ticketsListFragment"
+            app:destination="@id/nav_tickets_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_choose_country"
+        android:name="com.example.ticketsearch.screens.ChooseCountryBottomSheet"
+        android:label="@string/choose_country"
+        tools:layout="@layout/fragment_choose_country" />
+    <fragment
+        android:id="@+id/nav_tickets_list"
+        android:name="com.example.ticketsearch.screens.TicketsListFragment"
+        android:label="@string/tickets_list"
+        tools:layout="@layout/fragment_tickets_list">
+        <action
+            android:id="@+id/action_ticketsListFragment_to_selectedCountryFragment"
+            app:destination="@id/nav_selected_country" />
+    </fragment>
+</navigation>

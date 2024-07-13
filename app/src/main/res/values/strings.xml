@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Ticket search</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="air_tickets">Авиабилеты</string>
+    <string name="hotels">Отели</string>
+    <string name="in_short">Короче</string>
+    <string name="subscriptions">Подписки</string>
+    <string name="profile">Профиль</string>
+
+    <string name="Search_for_cheap_flights">Поиск дешевых\nавиабилетов</string>
+    <string name="From_where_Moscow">Откуда - Москва</string>
+    <string name="Where_to_Turkey">Куда - Турция</string>
+    <string name="Fly_away_musically">Музыкально отлететь</string>
+    <string name="show_all_places">Показать все места</string>
+
+    <string name="difficult_route">Сложный маршрут</string>
+    <string name="anywhere">Куда угодно</string>
+    <string name="weekend">Выходные</string>
+    <string name="hot_tickets">Горячие билеты</string>
+
+    <string name="minsk">Минск</string>
+    <string name="back">Обратно</string>
+    <string name="description_placeholder1">24 фев</string>
+    <string name="description_placeholder2">, сб</string>
+    <string name="passenger_placeholder">1,эконом</string>
+
+    <string name="filters">Фильтры</string>
+    <string name="forward_reels">Прямые рельсы</string>
+    <string name="show_all">Показать все</string>
+    <string name="show_all_tickets">Посмотреть все билеты</string>
+    <string name="ural_airlines">Уральские авиалинии</string>
+    <string name="placeholder_time">07:00 09:10 10:00 11:00 12:00 13:00 ...</string>
+    <string name="price_subscription">Подписка на цену</string>
+    <string name="description_placeholder">23 февраля, 1 пассажир</string>
+    <string name="placeholder">Заглушка</string>
+
+    <string name="istanbul">Стамбул</string>
+    <string name="sochi">Сочи</string>
+    <string name="phuket">Пхукет</string>
+    <string name="popular_destination">Популярное направление</string>
+
+    <string name="choose_country">Выбор страны</string>
+    <string name="selected_country">Выбрана страна</string>
+    <string name="tickets_list">Список билетов</string>
+    <string name="moscow_sochi">Москва-Сочи</string>
+
+</resources>

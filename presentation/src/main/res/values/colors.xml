@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Black -->
+    <color name="black">#0C0C0C</color>
+
+    <!-- Grey 1 -->
+    <color name="grey1">#1D1E20</color>
+
+    <!-- Grey 2 -->
+    <color name="grey2">#242529</color>
+
+    <!-- Grey 3 -->
+    <color name="grey3">#25C0C0C0</color>
+
+    <!-- Grey 4 -->
+    <color name="grey4">#2F3035</color>
+
+    <!-- Grey 5 -->
+    <color name="grey5">#5E5F61</color>
+
+    <!-- Grey 6 -->
+    <color name="grey6">#9F9F9F</color>
+
+    <!-- Grey 7 -->
+    <color name="grey7">#DBDBDB</color>
+
+    <!-- White -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- Blue -->
+    <color name="blue">#4C95FE</color>
+
+    <!-- Dark Blue -->
+    <color name="dark_blue">#242529</color>
+
+    <!-- Green -->
+    <color name="green">#4CB24E</color>
+
+    <!-- Dark Green -->
+    <color name="dark_green">#015905</color>
+
+    <!-- Red -->
+    <color name="red">#FF0000</color>
+
+    <!-- Orange -->
+    <color name="orange">#F36E36</color>
+</resources>

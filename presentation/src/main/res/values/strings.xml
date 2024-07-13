@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="price_format">от %1$d ₽</string>
+    <string name="title">Title</string>
+    <string name="location">Location</string>
+    <string name="price">Price</string>
+    <string name="popular_destination">Популярное направление</string>
+</resources>
