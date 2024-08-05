@@ -20,24 +20,16 @@ _Тестовое задание Effective mobile_
 
 ### UI
 - XML
-- AdapterDelegate
-- Compose
 - Material 2
 - AppCompat
 
-### DI
-- Dagger
-
 ### Asynchrony
 - Coroutines
-- Flow
+- LiveData
 
 ### Network
 - Retrofit
 - Gson
-
-### Storage
-- Room
 
 ### Other
 - Kotlin
